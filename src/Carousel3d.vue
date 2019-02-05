@@ -422,15 +422,15 @@
             if (!this.$isServer) {
                 window.addEventListener('resize', this.setSize)
 
-                if ('ontouchstart' in window) {
-                    this.$el.addEventListener('touchstart', this.handleMousedown)
-                    this.$el.addEventListener('touchend', this.handleMouseup)
-                    this.$el.addEventListener('touchmove', this.handleMousemove)
-                } else {
-                    this.$el.addEventListener('mousedown', this.handleMousedown)
-                    this.$el.addEventListener('mouseup', this.handleMouseup)
-                    this.$el.addEventListener('mousemove', this.handleMousemove)
-                }
+                // if ('ontouchstart' in window) {
+                //     this.$el.addEventListener('touchstart', this.handleMousedown)
+                //     this.$el.addEventListener('touchend', this.handleMouseup)
+                //     this.$el.addEventListener('touchmove', this.handleMousemove)
+                // } else {
+                //     this.$el.addEventListener('mousedown', this.handleMousedown)
+                //     this.$el.addEventListener('mouseup', this.handleMouseup)
+                //     this.$el.addEventListener('mousemove', this.handleMousemove)
+                // }
             }
         },
 
